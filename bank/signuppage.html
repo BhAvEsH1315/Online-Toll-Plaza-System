@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signupform.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="title">Sign-up</div>
+      <div class="content">
+        <form action="signupverify.php" method="GET">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Username</span>
+              <input
+                type="text"
+                id="User"
+                name="User"
+                placeholder="Username"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input
+                type="password"
+                id="pass"
+                name="pass"
+                placeholder="Password"
+                required
+              />
+            </div>
+
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email-id"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Set Account Balance:</span>
+              <input
+                type="number"
+                id="bal"
+                name="bal"
+                placeholder="Set Account Balance"
+                required
+              />
+            </div>
+          <div class="button">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
